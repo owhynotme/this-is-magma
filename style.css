@@ -334,3 +334,73 @@ margin-top: 25%;
     background-color: black;
     color: white;
 } */
+
+/* Page 9 */
+
+#page9{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-family: jost;
+}
+
+#page9 .left9{
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+#page9 .left9>h1{
+    font-size: 95px;
+    font-weight: 300;
+    line-height: 1;
+    margin-left: 30%;
+    margin: 15% 0% 0% 25%;
+}
+
+#page9 .right9{
+    height: auto;
+    width: 60%;
+    /* background-color: magenta; */
+    position: relative;
+    color: white;
+}
+
+#page9 .right9>img{
+    /* margin-top: 7%; */
+    margin: 12% 4% 0% 0%;
+    width: 92%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+
+
+/* 
+#page9 .right9>h2{
+    margin: 6% 0% 1% 0%;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#page9 .right9>p{
+    margin: 1% 0% 4% 0%;
+    width: 90%;
+    font-size: 22px;
+} */
+
+
+/* Page 10 */
+
+#page10{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
