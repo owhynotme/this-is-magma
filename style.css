@@ -369,6 +369,10 @@ margin-top: 25%;
 
 /* Page 9 */
 
+#page9-rev{
+    display: none;
+}
+
 #page9{
     position: relative;
     display: flex;
@@ -504,6 +508,10 @@ margin-top: 25%;
     margin-top: 2%;
     width: 90%;
     text-align: left;
+}
+
+#blogs-mob{
+    display: none;
 }
 
 /* featured-in */
@@ -708,4 +716,91 @@ margin-top: 25%;
         padding-left: 45px;
         padding-bottom: 50px;
     }
+    #page4 > h2{
+        margin:0%;
+        padding-left: 27px;
+        padding-bottom: 50px;
+        width: 85%;
+    }
+    #page4 > p{
+        font-size: 30px;
+    }
+
+    #page6 > h2{
+        margin:0%;
+        padding-left: 45px;
+        padding-bottom: 50px;       
+    }
+    #page6 > p{
+        font-size: 30px;
+    }
+    #page8-bottom > h1{
+        font-size: 50px;
+    }
+    #page9{
+        display: none;
+    }
+    #page9-rev{
+        display: block;
+        background-color: #052da550;
+    }
+    .left9-rev{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left9-rev img{
+        width: 80%;
+        border-radius: 15px;
+    }
+    
+    .left9-rev h1{
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        color: white;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    #page10 .left10{
+        display: none;
+    }
+    #page10 .right10 {
+        height: 100%;
+        width: 79%;
+        color: white;
+        font-family: jost;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    #page10{
+        height: 155vh;
+    }
+    #page11 > h1{
+        font-size: 30px;
+    }
+    #blogs-mob{
+        display: block;
+        background-color: white;
+    }
+
+    #blogs-mob img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    #blogs-mob .bg-mob{
+        padding: 20px 30px;
+    }
+    #blogs-mob h4{
+        font-size: 15px;
+        color: black;
+    }
+    #blogs-mob h1{
+        font-size: 25px;
+        color: black;
+    }
+
 }
