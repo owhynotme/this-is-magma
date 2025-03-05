@@ -90,10 +90,11 @@ html,body{
 
 #buttom-page1{
     position: absolute;
-    height: 50vh;
-    width: 45%;
+    height: 100vh;
+    /* width: 45%; */
     /* background-color: red; */
-    top: 55%;
+    top: 35%;
+
     /* right: -10%; */
     left: 7%;
 }
@@ -105,14 +106,17 @@ html,body{
     font-weight: 300;
     line-height:96%;
     font-family: jost;
+    width: 45%;
 }
+
 
 /* Buttom page1 Inner */
 
 #bottom-pg1-inner{
 /* width: 100vw; */
 display: flex;
-align-items: center;
+flex-direction: column;
+align-items: start;
 justify-content: space-between;
 gap: 20px;
 position: relative;
@@ -121,6 +125,7 @@ position: relative;
 #bottom-pg1-inner>p{
     font-size: 20px;
     color: white;
+    width: 55%;
     padding: 4% 0% 0% 5%;
     font-family: 'jost';
     /* font-weight: 300; */
@@ -135,7 +140,8 @@ position: relative;
     color: blue;
     position: relative;
     bottom: 1%;
-    right: 8%;
+    right: -4%;
+    /* left: 6%; */
     z-index: 1;
 }
 
@@ -686,3 +692,20 @@ margin-top: 25%;
     /* padding-left: 1%; */
 }
 
+@media (max-width:720px) {
+    #buttom-page1 h1{
+        font-size: 40px;
+        width: 90%;
+    }
+    #bottom-pg1-inner > p{
+        width: 70%;
+    }
+    #page2 > p{
+        font-size: 30px;
+    }
+    #page2 > h2{
+        margin:0%;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+}
